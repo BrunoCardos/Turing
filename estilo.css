@@ -1,0 +1,394 @@
+.red{
+    background-color: red;
+}
+
+.bl{
+    background-color: blue;
+}
+
+body{
+    font-family:  sans-serif;
+}
+
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: white;
+    height: 80px;
+}
+
+header img{
+    width: 124px;
+}
+
+header a{
+    text-decoration: none;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 25px;
+}
+
+.my-btn{
+    font-size: 18px;
+}
+
+.banner{
+    padding-top: 80px;
+}
+
+.banner .img{
+    background: url(images/pic01.PNG);
+    background-repeat: no-repeat;
+}
+
+.banner h1{
+    font-size: 55px;
+    width: 500px;
+    margin-top: 100px;
+}
+
+.banner h5{
+    width: 450px;
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.blue-text{
+    text-decoration: none;
+    color: #2E6EDF;
+    font-weight: bold;
+}
+
+.banner p{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-size: 15px;
+}
+
+.brands p{
+    color: #828282;
+}
+
+.brands img{
+    margin-right: 20px;
+}
+
+.bg-banner{
+    background: url(/images/heart.jpg);
+    background-size: cover;
+}
+
+.bg-banner h2{
+    font-size: 55px;
+    color: white;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.bg-banner p{
+    font-size: 30px;
+    color: white;
+    margin-top: 60px;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.bg-banner .flex{
+    justify-content: space-between;
+}
+
+.glass{
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    background: #0000004D;
+    width: 388px;
+    padding: 24px;
+    border-radius: 10px;
+
+}
+
+.glass i{
+    color: white;
+    font-size: 40px;
+    background: #444;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 10;
+
+}
+
+.glass p{
+    font-size: 20px;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.challenging .img{
+    background: url(/images/pic02.PNG);
+    background-repeat: no-repeat;
+    height: 480px;
+}
+
+.challenging h2{
+    margin: 80px 0 30px 25px;
+    font-weight: bolder;
+}
+
+.challenging .flex{
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.challenging i{
+    margin-left: 26px;
+    font-size: 31px;
+    background: #EBF1FC;
+    color: #2E6EDF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.challenging p{
+    font-size: 22px;
+    line-height: 1.1;
+}
+
+.challenging button{
+    margin-left: 26px;
+}
+
+.services h2{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
+
+.services{
+    padding: 100px 0;
+    background-color: #FAFAFA;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 320px;
+}
+
+.card img{
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.card h3{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card ul{
+    margin-left: 15px;
+}
+
+.card span{
+    color: #2E6EDF;
+}
+
+.card h4{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.my-card{
+    width: 400px;
+}
+
+.blue{
+    margin-left: 30px;
+    margin-bottom: 15px;
+    padding: 3px 20px;
+    background: #EBF1FC;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 330px;
+    border-radius: 10px;
+}
+
+.blue i{
+    color: #2E6EDF;
+    font-size: 17px;
+}
+
+.blue p{
+    position: relative;
+    top: 9px;
+    margin-left: 7px;
+    font-weight: bold;
+    color: #2E6EDF;
+    font-size: 14px;
+}
+
+.services button{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 330px;
+}
+
+.services .big-text{
+    font-size: 20px;
+}
+
+.services li > span{
+    font-weight: bold;
+    color: black;
+}
+
+.why{
+    padding: 60px 0;
+}
+
+.why .flex{
+    justify-content: flex-start;
+   
+}
+
+.why h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.why i{
+    color: #66CC80;
+    font-size: 30px;
+    background: #F0FAF3;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.why .flex p{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    margin: 5px;
+}
+
+.why h2{
+    font-weight: bold;
+    color: #1FB70B;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.why p{
+    font-size: 20px;
+}
+
+.why-card{
+    margin-right: 36px;
+}
+
+.why span{
+    color: #1FB70B;
+}
+
+.about{
+    padding: 70px 0;
+    background: linear-gradient(90deg, rgba(78,97,194,1) 20%, rgba(62,133,226,1) 100%);
+}
+
+.about h2{
+    color: white;
+    font-size: 50px;
+}
+
+.about h2 span{
+    font-weight: 700;
+}
+
+.about .flex{
+    gap: 40px;
+}
+
+.about .flex h2{
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.about .flex p {
+    color: white;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.btn-1{
+    background: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #4E61C2;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.btn-2{
+    background: transparent;
+    border: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.challenging .img2{
+    background: url(/images/pic03.PNG);
+    background-repeat: no-repeat;
+    height: 480px;
+}
+
+.slide{
+    width: 600px;
+}
+
+.remote{
+    background: #212121;
+    color: white;
+    padding: 60px 0;
+}
+
+.remote h3{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.remote p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #1E1E1E;
+}
+
+
